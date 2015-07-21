@@ -3,8 +3,10 @@
 ```
 property：value1； 表示所有边都是一个值 value 。
 property：value1  value2； 表示 top 和 bottom 的值是 value1，right 和 left 的值是 value2 。
-property：value1  value2  value3；表示 top 的值是 value1，right 和 left 的值是 value2，bottom 的值是 value3 .
-property：value1  value2  value3  value4； 表示 top 的值是 value1，right 的值是 value2，bottom 的值是 value3，               left的值是 value4 。
+property：value1  value2  value3；表示 top 的值是 value1，right 和 left 的值是 value2，
+                                  bottom 的值是 value3 .
+property：value1  value2  value3  value4； 表示 top 的值是 value1，right 的值是 value2，
+                                           bottom 的值是 value3，left的值是 value4 。
 ```
 
 **边框属性**
@@ -88,7 +90,10 @@ list-style 属性值可省略，省略的部分会以相应的默认值代替：
 list-style-type:disc;
 list-style-position:outside;
 list-style-image:none;
-/*对于list-style的预设列表项在实际中经常以图片代替，图片不是用list-style-image属性实线的，而是用background背景属性实线的。前提是需要设置列表的list-style:none属性*/
+/*对于list-style的预设列表项在实际中经常以图片代替，
+图片不是用list-style-image属性实线的，
+而是用background背景属性实线的。
+前提是需要设置列表的list-style:none属性*/
 ```
 
 
