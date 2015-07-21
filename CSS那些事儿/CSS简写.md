@@ -86,7 +86,10 @@ li {
 }
 /*根据 list-style 的语法，可将列表属性简写为：*/
 li {list-style: url(image.gif) inside square;}
-list-style 属性值可省略，省略的部分会以相应的默认值代替：
+list-style 
+```
+属性值可省略，省略的部分会以相应的默认值代替：
+```
 list-style-type:disc;
 list-style-position:outside;
 list-style-image:none;
